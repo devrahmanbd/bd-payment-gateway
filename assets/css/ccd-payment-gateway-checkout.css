@@ -1,0 +1,44 @@
+.payment_box.payment_method_ccd_payoneer {
+  border-left: 5px solid #e05a29;
+}
+
+.payment_box.payment_method_ccd_rocket {
+  border-left: 5px solid #8a288f;
+}
+
+.payment_box.payment_method_ccd_nagad {
+  border-left: 5px solid #ef8e22;
+}
+
+.payment_box.payment_method_bd_bkash {
+  border-left: 5px solid #db126b;
+}
+
+.payment_box .payment_box_ccd_child table tr {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+.payment_box .payment_box_ccd_child table tr td {
+  border-width: 0;
+  width: 100%;
+}
+
+.payment_box .payment_box_ccd_child table tr input {
+  width: 100%;
+  padding: 4px 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.payment_box.payment_method_bd_bkash .ccd_extra_charge_note,
+.payment_box.payment_method_ccd_nagad .ccd_extra_charge_note,
+.payment_box.payment_method_ccd_rocket .ccd_extra_charge_note,
+.payment_box.payment_method_ccd_payoneer .ccd_extra_charge_note {
+  background: white;
+  padding: 5px;
+  font-weight: 500;
+  border-left: 4px solid red;
+  margin-bottom: 10px;
+}
